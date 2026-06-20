@@ -28,7 +28,7 @@ Non serve installare nulla e non serve avviare un server.
 1. Vai su [GitHub](https://github.com/).
 2. Accedi al tuo account.
 3. Clicca su `New repository`.
-4. Inserisci un nome, per esempio `matrimonio-ste-angy`.
+4. Inserisci un nome, per esempio `matrimonio-angy-ste`.
 5. Scegli `Public` se vuoi usare GitHub Pages gratis in modo semplice.
 6. Clicca su `Create repository`.
 
@@ -49,11 +49,11 @@ git init
 git add .
 git commit -m "Pubblica sito matrimonio"
 git branch -M main
-git remote add origin https://github.com/NOME-UTENTE/matrimonio-ste-angy.git
+git remote add origin https://github.com/NOME-UTENTE/matrimonio-angy-ste.git
 git push -u origin main
 ```
 
-Sostituisci `NOME-UTENTE` e `matrimonio-ste-angy` con i dati reali della repository.
+Sostituisci `NOME-UTENTE` e `matrimonio-angy-ste` con i dati reali della repository.
 
 ### 3. Andare su Settings > Pages
 
@@ -82,7 +82,7 @@ Dopo il salvataggio, GitHub Pages impiega di solito qualche minuto per pubblicar
 Torna in `Settings` > `Pages`: quando il deploy e pronto, GitHub mostra un messaggio con il link pubblico, simile a:
 
 ```text
-https://NOME-UTENTE.github.io/matrimonio-ste-angy/
+https://NOME-UTENTE.github.io/matrimonio-angy-ste/
 ```
 
 ## Dove modificare il sito
@@ -102,3 +102,4 @@ https://NOME-UTENTE.github.io/matrimonio-ste-angy/
 - JavaScript collegato con `assets/js/main.js`.
 - Nessun backend richiesto.
 - RSVP gestito tramite Google Form o email precompilata.
+
