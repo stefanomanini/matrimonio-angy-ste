@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conferma presenza RSVP | Ste & Angy</title>
+  <meta name="description" content="Conferma la tua presenza al matrimonio di Ste & Angy del 15 aprile 2027 tramite Google Form o email precompilata.">
+  <meta property="og:title" content="Conferma presenza | Ste & Angy">
+  <meta property="og:description" content="Aiutaci a organizzare al meglio la giornata.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/og-ste-angy.svg">
+  <meta property="og:locale" content="it_IT">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">S&A</span><span>Ste & Angy</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Apri menu</span><span></span><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Menu principale"><a href="storia.html">Storia</a><a href="programma.html">Programma</a><a href="location.html">Location</a><a href="rsvp.html">RSVP</a><a href="menu.html">Menu</a><a href="info.html">Info</a><a href="lista-nozze.html">Lista nozze</a><a href="foto.html">Foto</a></nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">RSVP</p>
+      <h1>Confermate la vostra presenza</h1>
+      <p>Per aiutarci a organizzare ogni dettaglio, vi chiediamo di rispondere appena possibile.</p>
+    </section>
+    <section class="section form-section">
+      <div class="form-card">
+        <h2>Modulo statico</h2>
+        <p>Questo form è elegante e pronto per essere collegato a Google Form. Su GitHub Pages non c'è backend, quindi i dati non vengono salvati da questo modulo HTML.</p>
+        <form>
+          <label>Nome e cognome
+            <input type="text" name="nome" placeholder="Es. Maria Rossi">
+          </label>
+          <label>Numero invitati
+            <input type="number" name="invitati" min="1" placeholder="2">
+          </label>
+          <label>Presenza
+            <select name="presenza">
+              <option>Confermo con gioia</option>
+              <option>Non potrò partecipare</option>
+              <option>Vi aggiorno a breve</option>
+            </select>
+          </label>
+          <label>Intolleranze o note
+            <textarea name="note" rows="5" placeholder="Scrivi qui eventuali esigenze alimentari o comunicazioni."></textarea>
+          </label>
+          <!-- Inserire qui il link del Google Form ufficiale quando sarà pronto. -->
+          <a class="button button-primary full-width" href="https://forms.google.com/" target="_blank" rel="noopener">Vai al Google Form</a>
+          <a class="button button-secondary full-width" href="mailto:ste.angy@example.com?subject=RSVP%20matrimonio%20Ste%20e%20Angy&body=Ciao%20Ste%20e%20Angy,%0Aconfermo%20la%20mia%20presenza%20al%20matrimonio.%0A%0ANome:%0ANumero%20invitati:%0AIntolleranze%20o%20note:%0A">Rispondi via email</a>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><p>Ste & Angy · 15 aprile 2027</p><nav><a href="privacy.html">Privacy</a><a href="rsvp.html">RSVP</a></nav></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

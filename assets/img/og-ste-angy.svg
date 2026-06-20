@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fff8ea"/>
+  <path d="M0 500c180-80 350-95 520-50s330 60 680-70v250H0z" fill="#f6ead2"/>
+  <circle cx="980" cy="160" r="86" fill="#e7b83f" opacity=".82"/>
+  <g fill="none" stroke="#68734d" stroke-width="8" stroke-linecap="round">
+    <path d="M150 480c95-130 180-210 310-260"/>
+    <path d="M250 395c-42-60-72-90-124-112"/>
+    <path d="M330 320c-20-70-18-115 5-168"/>
+  </g>
+  <text x="600" y="265" text-anchor="middle" font-family="Georgia,serif" font-size="110" fill="#39452e">Ste &amp; Angy</text>
+  <text x="600" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" letter-spacing="7" fill="#c98568">15 APRILE 2027</text>
+  <text x="600" y="405" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#776f63">Tenuta Bramasole · Inveruno, Milano</text>
+</svg>
